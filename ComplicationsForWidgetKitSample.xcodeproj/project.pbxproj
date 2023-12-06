@@ -15,6 +15,7 @@
 		1944AA9C2B206A6A00AEE5D7 /* TopContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944AA9B2B206A6A00AEE5D7 /* TopContentRow.swift */; };
 		1944AA9E2B206C5C00AEE5D7 /* TopContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944AA9D2B206C5C00AEE5D7 /* TopContentView.swift */; };
 		1944AAA02B2075D500AEE5D7 /* MainContetntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944AA9F2B2075D500AEE5D7 /* MainContetntView.swift */; };
+		1944AAA62B2077C200AEE5D7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944AAA52B2077C200AEE5D7 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1944AA9B2B206A6A00AEE5D7 /* TopContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContentRow.swift; sourceTree = "<group>"; };
 		1944AA9D2B206C5C00AEE5D7 /* TopContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContentView.swift; sourceTree = "<group>"; };
 		1944AA9F2B2075D500AEE5D7 /* MainContetntView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContetntView.swift; sourceTree = "<group>"; };
+		1944AAA52B2077C200AEE5D7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				1944AAA22B2075EF00AEE5D7 /* Top */,
 				1944AAA32B2075F600AEE5D7 /* Main */,
+				1944AAA42B2076DA00AEE5D7 /* Menu */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				1944AA9F2B2075D500AEE5D7 /* MainContetntView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		1944AAA42B2076DA00AEE5D7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1944AAA52B2077C200AEE5D7 /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1944AAA02B2075D500AEE5D7 /* MainContetntView.swift in Sources */,
+				1944AAA62B2077C200AEE5D7 /* MenuView.swift in Sources */,
 				1944AA9E2B206C5C00AEE5D7 /* TopContentView.swift in Sources */,
 				1944AA9C2B206A6A00AEE5D7 /* TopContentRow.swift in Sources */,
 				1944AA9A2B20648C00AEE5D7 /* AppContent.swift in Sources */,

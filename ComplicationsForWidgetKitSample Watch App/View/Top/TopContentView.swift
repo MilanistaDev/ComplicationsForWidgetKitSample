@@ -27,7 +27,7 @@ struct TopContentView: View {
                 MainContetntView()
 
             case .menu:
-                Text("Menu")
+                MenuView()
 
             case nil:
                 EmptyView()
