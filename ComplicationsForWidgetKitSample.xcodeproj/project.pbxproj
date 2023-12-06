@@ -12,6 +12,7 @@
 		1944AA8A2B2061E700AEE5D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944AA892B2061E700AEE5D7 /* ContentView.swift */; };
 		1944AA8C2B2061E800AEE5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1944AA8B2B2061E800AEE5D7 /* Assets.xcassets */; };
 		1944AA8F2B2061E800AEE5D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1944AA8E2B2061E800AEE5D7 /* Preview Assets.xcassets */; };
+		1944AA9A2B20648C00AEE5D7 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944AA992B20648C00AEE5D7 /* AppContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		1944AA892B2061E700AEE5D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1944AA8B2B2061E800AEE5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1944AA8E2B2061E800AEE5D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1944AA992B20648C00AEE5D7 /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				1944AA872B2061E700AEE5D7 /* ComplicationsForWidgetKitSampleApp.swift */,
 				1944AA892B2061E700AEE5D7 /* ContentView.swift */,
+				1944AA992B20648C00AEE5D7 /* AppContent.swift */,
 				1944AA8B2B2061E800AEE5D7 /* Assets.xcassets */,
 				1944AA8D2B2061E800AEE5D7 /* Preview Content */,
 			);
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1944AA9A2B20648C00AEE5D7 /* AppContent.swift in Sources */,
 				1944AA8A2B2061E700AEE5D7 /* ContentView.swift in Sources */,
 				1944AA882B2061E700AEE5D7 /* ComplicationsForWidgetKitSampleApp.swift in Sources */,
 			);
