@@ -24,7 +24,7 @@ struct TopContentView: View {
         } detail: {
             switch selectedContent?.type {
             case .main:
-                Text("Main")
+                MainContetntView()
 
             case .menu:
                 Text("Menu")
