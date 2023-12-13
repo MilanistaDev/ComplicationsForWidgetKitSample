@@ -37,6 +37,7 @@ struct WatchComplicationsEntryView : View {
         Image("WatchComplicationIcon")
             .resizable()
             .scaledToFit()
+            .widgetAccentable()
     }
 }
 
