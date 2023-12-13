@@ -31,13 +31,20 @@ struct SimpleEntry: TimelineEntry {
 }
 
 struct WatchComplicationsEntryView : View {
+    @Environment(\.widgetRenderingMode) var renderingMode
     var entry: Provider.Entry
 
     var body: some View {
-        Image("WatchComplicationIcon")
-            .resizable()
-            .scaledToFit()
-            .widgetAccentable()
+        if renderingMode == .fullColor {
+            Image("WatchComplicationIcon")
+                .resizable()
+                .scaledToFit()
+        } else {
+            Image("WatchComplicationIcon_accented")
+                .resizable()
+                .scaledToFit()
+                .widgetAccentable()
+        }
     }
 }
 
