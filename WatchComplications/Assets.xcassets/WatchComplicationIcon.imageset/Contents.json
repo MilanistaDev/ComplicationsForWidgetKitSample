@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "WatchComplicationIcon.png",
+      "filename" : "WatchComplicationIcon_50@2x.png",
       "idiom" : "watch",
       "scale" : "2x"
     }
